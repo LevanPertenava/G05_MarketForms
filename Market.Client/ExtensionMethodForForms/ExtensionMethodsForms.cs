@@ -14,6 +14,7 @@ namespace Market.Client.ExtensionMethodForms
 {
     internal static class ExtensionMethodsForms
     {
+        //komentari
         internal static void InsertTextBoxesIntoProperties<T>(this PropertyInfo[] properties, Form form, T model) where T : class, new()
         {
             foreach (var property in properties)
